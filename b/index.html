@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <!-- Meta -->
+  <meta charset="UTF-8" />
+  <title>Nuclear and Radiological Information Webpage</title>
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Encode+Sans+Condensed:wght@400;700&amp;display=swap">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.0/css/bulma.min.css">
+  <link rel="stylesheet" href="styles/index.processed.css">
+
+  <!-- Scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js"></script>
+  <script src="https://unpkg.com/vue@2.1.10/dist/vue.js"></script>
+  <script src="https://npmcdn.com/isotope-layout@3.0/dist/isotope.pkgd.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.15/lodash.min.js"></script>
+  <script src="https://cdn.rawgit.com/David-Desmaisons/Vue.Isotope/master/dist/vue_isotope.js"></script>
+</head>
+
+<body>
+
+  <div id="app">
+    <section class="hero is-link">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title">Nuclear and Radiological Information Webpage</h1>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+
+        <div class="tabs is-toggle">
+          <ul>
+            <li v-for="(val, key) in option.getFilterData" :class="[key===filterOption? 'is-active' : '']" @click="filter(key)">
+              <a class="is-capitalized">{{key}}</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="columns">
+          <div class="column is-one-third">
+            <input class="input" type="text" v-model="filterText" placeholder="Search" />
+          </div>
+        </div>
+
+        <isotope ref="cpt" id="root_isotope1" :item-selector="'element-item'" :list="filteredList" :options='option' @filter="filterOption=arguments[0]" @sort="sortOption=arguments[0]">
+          <a v-for="element,index in filteredList" :class='[element.catCode, "cat-" + element.idx]' :key="index" :href="element.url" target="_blank">
+            <p>{{element.cat}}</p>
+            <h3>{{element.text}}</h3>
+          </a>
+        </isotope>
+      </div>
+
+    </section>
+  </div>
+
+  <!-- Scripts -->
+  <script src="scripts/data.js"></script>
+  <script src="scripts/index.js"></script>
+</body>
+
+</html>

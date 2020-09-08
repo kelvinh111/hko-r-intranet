@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <!-- Meta -->
+  <meta charset="UTF-8" />
+  <title>Radiation Monitoring & Assessment Website</title>
+
+  <!-- Styles -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+Condensed:wght@400;700&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="styles/index.processed.css">
+
+  <!-- Scripts -->
+  <script src="https://unpkg.com/vue@2.1.10/dist/vue.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.16/lodash.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js"></script>
+</head>
+
+<body>
+
+  <div id="app">
+    <h1 id="title">Radiation Monitoring &<br />Assessment Website</h1>
+    <div id="nav-wrapper">
+      <nav class="menu lv1">
+        <ul>
+          <li v-for="lv1 in list" :key="lv1.name">
+            <a class="parent">{{ lv1.name }}</a>
+            <nav class="menu lv2">
+              <ul>
+                <li v-for="lv2 in lv1.children" :key="lv2.name">
+                  <a v-if="!lv2.children && lv2.url" :href="lv2.url" target="_blank" class="leaf">{{ lv2.name }}</a>
+                  <span v-if="!lv2.children && !lv2.url" class="leaf">{{ lv2.name }}</span>
+                  
+                  <a v-if="lv2.children" class="parent">{{ lv2.name }}</a>
+                  <nav v-if="lv2.children" class="menu lv3">
+                    <ul>
+                      <li v-for="lv3 in lv2.children" :key="lv3.name">
+                        <a :href="lv3.url" target="_blank" class="leaf">{{ lv3.name }}</a>
+                      </li>
+                    </ul>
+                  </nav>
+                </li>
+              </ul>
+            </nav>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="scripts/index.js"></script>
+</body>
+
+</html>

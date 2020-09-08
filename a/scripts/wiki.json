@@ -1,0 +1,465 @@
+[
+  {
+    "name": "Telephone & Roster",
+    "children": [
+      {
+        "name": "R-Branch Rosters",
+        "children": [
+          {
+            "name": "RBDO",
+            "url": "https://bmetis1/r_homepage/rm_homepage/tel_directory/roster/group_a/rbdo_roster_201810.pdf"
+          },
+          {
+            "name": "MAC",
+            "url": "http://bmetis1/r_homepage/rm_homepage/tel_directory/roster/group_b/dbcp_roster_mac_posts_201810.pdf"
+          },
+          {
+            "name": "Survey & Laboratory",
+            "url": "http://bmetis1/r_homepage/rm_homepage/tel_directory/roster/group_b/dbcp_roster_remote_site_201810.pdf"
+          },
+          { "name": "EMT(R)11", "url": "http://hercules/rmn/roster.htm" },
+          {
+            "name": "EMT(R)31",
+            "url": "http://bmetis1/r_homepage/rm_homepage/tel_directory/emtr31_roster_202007.pdf"
+          },
+          {
+            "name": "SBDO",
+            "url": "http://bmetis1/r_homepage/rm_homepage/tel_directory/sbdo_roster_202007.pdf"
+          },
+          {
+            "name": "EMSD",
+            "url": "http://bmetis1/r_homepage/rm_homepage/tel_directory/emsd_202007.pdf"
+          }
+        ]
+      },
+      {
+        "name": "Monthly Communication Test Report",
+        "url": "http://bmetis1/r_homepage/rm_homepage/dbcp/HKO_comm_test/HKO_Ctest_report.pdf"
+      },
+      {
+        "name": "HKO Rosters",
+        "url": "http://cfoserver/cfo/roster/roster.htm"
+      },
+      {
+        "name": "HKO Staff Telephone No.",
+        "url": "http://bmetis1/~cfopo/html/tel/TelList_Main.htm"
+      },
+      {
+        "name": "Radiological & other Security-Related Emergencies",
+        "url": "http://bmetis1/r_homepage/rm_homepage/dbcp/dbcp_tel_dir/contents.htm"
+      },
+      {
+        "name": "HK Emergency Tel Directory",
+        "url": "http://bmetis1/r_homepage/rm_homepage/tel_directory/hk_emergency_tel_dir.pdf"
+      },
+      {
+        "name": "Equipment Maintenance",
+        "children": [
+          {
+            "name": "CMS",
+            "url": "http://bmetis1/r_homepage/rm_homepage/tel_directory/emergency_repair_cms.doc"
+          },
+          {
+            "name": "LCMS",
+            "url": "http://bmetis1/r_homepage/rm_homepage/tel_directory/emergency_repair_lcms.doc"
+          },
+          {
+            "name": "MAC",
+            "url": "http://bmetis1/r_homepage/rm_homepage/tel_directory/emergency_repair_mac_cfo.doc"
+          },
+          {
+            "name": "RMN",
+            "url": "http://bmetis1/r_homepage/rm_homepage/tel_directory/emergency_repair_mac_cfo.doc"
+          },
+          {
+            "name": "OWCMS/ERDMS",
+            "url": "http://bmetis1/r_homepage/rm_homepage/tel_directory/emergency_repair_mac_cfo.doc"
+          },
+          {
+            "name": "AGSS/ACAS",
+            "url": "http://bmetis1/r_homepage/rm_homepage/tel_directory/emergency_repair_mac_cfo.doc"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Daya Bay Contingency Plan",
+    "children": [
+      {
+        "name": "DBCP Part I",
+        "url": "http://bmetis1/r_homepage/rm_homepage/dbcp/dbcp_part_i/DBCP_PART_I.PDF"
+      },
+      {
+        "name": "DBCP Part II",
+        "url": "http://bmetis1/r_homepage/rm_homepage/dbcp/dbcp_part_ii/dbcp_part_ii.html"
+      },
+      {
+        "name": "CFO Quick Reference",
+        "url": "http://bmetis1/r_homepage/rm_homepage/dbcp/cfo_procedures/cfo_procedures.html"
+      },
+      {
+        "name": "DBCP Status",
+        "url": "http://bmetis1/r_homepage/rm_homepage/dbcp/dbcp_status/dbcp_status.html"
+      },
+      {
+        "name": "Group Call List",
+        "url": "http://bmetis1/r_homepage/rm_homepage/dbcp/dbcp_tel_dir/group_call_list.pdf"
+      },
+      {
+        "name": "SMS Group Call",
+        "url": "http://bmetis1/r_homepage/rm_homepage/dbcp/email_sms/group_sms_DBCP.htm"
+      },
+      {
+        "name": "Pager Group Call",
+        "url": "https://www.telecomdigital.cc/customerservice01/473.jhtml"
+      }
+    ]
+  },
+  {
+    "name": "PORTSAFE Contingency Plan",
+    "children": [
+      {
+        "name": "Government Plan",
+        "url": "https://bmetis1/r_homepage/rm_homepage/portsafe/portsafe/portsafe.pdf"
+      },
+      {
+        "name": "\"港口安全\"應變計畫",
+        "url": "https://bmetis1/r_homepage/rm_homepage/portsafe/portsafe/portsafe_chi.pdf"
+      },
+      {
+        "name": "HKO Departmental Plan",
+        "url": "https://bmetis1/r_homepage/rm_homepage/portsafe/portsafe_hko_dpt_plan/dpt_plan.pdf"
+      },
+      {
+        "name": "CFO Quick References",
+        "children": [
+          {
+            "name": "CFO-PM Section 10 (page 11-13) - Section 10.4: Contingency Plan For Public Safety During Visits by Nuclear Powered Vessels (PORTSAFE)",
+            "url": "https://bmetis1/r_homepage/rm_homepage/portsafe/cfo_procedures/ofm9_10.pdf"
+          },
+          {
+            "name": "CFO-PM Appendix 10 (page 51-56) - Appendix 10-22 to 10-27: Figures and Forms for PORTSAFE",
+            "url": "https://bmetis1/cfoop/pm/pdf/CFOPM_A10_20161209.pdf"
+          },
+          {
+            "name": "Useful Forms for PORTSAFE",
+            "url": "/~snr4/mediawiki/index.php/Useful_Forms_for_PORTSAFE"
+          },
+          {
+            "name": "Procedures for PORTSAFE SMS calls",
+            "url": "http://bmetis1/hko/mic/SMS_DBCP.pdf"
+          },
+          {
+            "name": "Tool for Dispersion Estimate",
+            "url": "https://bmetis1/r_homepage/rm_homepage/conseq_assessment/plume_track/standard_plume_track.html"
+          },
+          {
+            "name": "HYSPLIT (ARL of NOAA) , (Operational Procedure for HYSPLIT)",
+            "url": "http://ready.arl.noaa.gov/HYSPLIT.php"
+          },
+          {
+            "name": "RBDO roster",
+            "url": "http://bmetis1/r_homepage/rm_homepage/tel_directory/roster/group_a/rbdo_roster_201808.pdf"
+          }
+        ]
+      },
+      {
+        "name": "PORTSAFE Status",
+        "url": "https://bmetis1/r_homepage/rm_homepage/portsafe/portsafe_status/portsafe_status.html"
+      },
+      {
+        "name": "Group Call List",
+        "url": "https://bmetis1/r_homepage/rm_homepage/dbcp/dbcp_tel_dir/group_call_list.pdf"
+      },
+      {
+        "name": "SMS Group Call",
+        "url": "https://bmetis1/r_homepage/rm_homepage/dbcp/email_sms/group_sms_PORTSAFE.htm"
+      },
+      {
+        "name": "Pager Group Call",
+        "url": "https://www.telecomdigital.cc/cgi-bin/itpage.cgi"
+      }
+    ]
+  },
+  {
+    "name": "Response to CBRN Agent Attack",
+    "children": [
+      {
+        "name": "HKO Departmental Plan",
+        "url": "http://bmetis1/r_homepage/rm_homepage/cbrn/cbrn_hko_dpt_plan/cbrn_plan.pdf"
+      },
+      {
+        "name": "CFO Quick Reference",
+        "url": "https://bmetis1/r_homepage/rm_homepage/cbrn/cbrn_cfo_procedure/cbrn_references.html"
+      },
+      {
+        "name": "CBRN Status",
+        "url": "http://bmetis1/r_homepage/rm_homepage/cbrn/cbrn_status/cbrn_status.html"
+      },
+      {
+        "name": "Group Call List",
+        "url": "http://bmetis1/r_homepage/rm_homepage/dbcp/dbcp_tel_dir/group_call_list.pdf"
+      },
+      {
+        "name": "SMS Group Call",
+        "url": "http://bmetis1/r_homepage/rm_homepage/dbcp/email_sms/group_sms_CBRN.htm"
+      },
+      {
+        "name": "Pager Group Call",
+        "url": "https://www.telecomdigital.cc/cgi-bin/itpage.cgi"
+      }
+    ]
+  },
+  {
+    "name": "Emergency Radiation Data Management System",
+    "children": [
+      { "name": "Log in ERDMS", "url": "http://ope.erdms.hko.gov.hk/" },
+      {
+        "name": "ERDMS User Guide",
+        "url": "http://bmetis1/r_homepage/rm_homepage/conseq_assessment/erdms/Guide_to_ERDMS_operation.pdf"
+      },
+      {
+        "name": "ERDMS Operation Manual for Administrator",
+        "url": "http://bmetis1/r_homepage/rm_homepage/conseq_assessment/erdms/ERDMS_Operation_Manual.pdf"
+      }
+    ]
+  },
+  {
+    "name": "ToolBox",
+    "children": [
+      {
+        "name": "Radiation Repository System",
+        "url": "http://192.168.143.60:888/home"
+      },
+      { "name": "IEM Tool Box", "url": "http://www.iem-inc.com/toolset.html" },
+      {
+        "name": "Great Circle Distance",
+        "url": "http://bmetis1/r_homepage/rm_homepage/toolbox/greatcircledist.html"
+      },
+      {
+        "name": "Great Circle Calculation",
+        "url": "http://bmetis1/r_homepage/rm_homepage/toolbox/greatcirclecalc.html"
+      }
+    ]
+  },
+  {
+    "name": "Emergency Radiation Monitoring",
+    "children": [
+      { "name": "Early Phase", "url": "http://bmetis1/r_homepage/rm_homepage/emerg_rm/emerg_rm_early_phase.html" },
+      { "name": "Intermediate & Late Phase", "url": "http://bmetis1/r_homepage/rm_homepage/emerg_rm/emerg_rm_int_late_phase.html" },
+      { "name": "Food & Water Monitoring Systems", "url": "http://bmetis1/r_homepage/rm_homepage/emerg_rm/emerg_rm_food_water_cms.html" }
+    ]
+  },
+  {
+    "name": "Accident Consequence Assessment",
+    "children": [
+      { "name": "Monitoring and Assessment Centre", "url": "http://bmetis1/r_homepage/rm_homepage/conseq_assessment/mac/mac_floor_plan.html" },
+      {
+        "name": "Tool for Dispersion Estimate",
+        "url": "http://172.21.128.112/cgi-bin/acas/dispersion_estimate.pl?class=A"
+      },
+      { "name": "Stability Class", "url": "http://bmetis1/r_homepage/rm_homepage/conseq_assessment/atmospheric_stability.html" },
+      {
+        "name": "Source Term",
+        "url": "http://bmetis1/r_homepage/rm_homepage/conseq_assessment/SourceTerm.html"
+      },
+      {
+        "name": "J-RODOS operational manual",
+        "url": "http://bmetis1/r_homepage/rm_homepage/conseq_assessment/rodos/JRODOS_OM_v3.0.pdf"
+      },
+      { "name": "FLEXPART", "url": "http://bmetis1/r_homepage/rm_homepage/conseq_assessment/Flexpart.html" },
+      {
+        "name": "HYSPLIT Procedures",
+        "url": "http://bmetis1/r_homepage/rm_homepage/conseq_assessment/hysplit/Hysplit_OperationalProcedure.pdf"
+      },
+      {
+        "name": "Airborne Dispersion Event",
+        "url": "http://bmetis1/r_homepage/rm_homepage/conseq_assessment/AirborneDisp.html"
+      }
+    ]
+  },
+  {
+    "name": "Environmental Radiation Monitoring",
+    "children": [
+      {
+        "name": "HKO ARMT Wiki",
+        "url": "http://hkoqms/R4/mediawiki/index.php/Main_Page"
+      },
+      {
+        "name": "RMN Data Availability",
+        "url": "http://bmetis1/r_homepage/rm_homepage/environ_rm/radiation_monitoring_systems/data_availability.htm"
+      },
+      {
+        "name": "Monthly Bulletins of Ambient Gamma Radiation Levels",
+        "url": "http://bmetis1/r_homepage/rm_homepage/environ_rm/ermp/rmn_monthly_bulletin/rmn_bulletin_main.htm"
+      },
+      {
+        "name": "RMN Data Statistics",
+        "url": "http://bmetis1/r_homepage/rm_homepage/bookshelf/other_references/rmn_data_statistics/rmndatah.htm"
+      },
+      {
+        "name": "Environmental Radiation Monitoring Program (ERMP)",
+        "url": "http://bmetis1/r_homepage/rm_homepage/environ_rm/ermp/ermp.html"
+      },
+      { "name": "Results of ERMP", "url": "http://bmetis1/r_homepage/rm_homepage/environ_rm/ermp/rmn_contents.html" },
+      { "name": "Radiation Monitoring System", "url": "http://bmetis1/r_homepage/rm_homepage/environ_rm/radiation_monitoring_systems/rm_system.html" },
+      {
+        "name": "Station Managers for Radiation Monitoring System",
+        "url": "http://bmetis1/r_homepage/rm_homepage/environ_rm/station_manager.html"
+      },
+      { "name": "Electronic Maintenance Team (EMT(R)11)",
+      "url": "http://hercules/rmn/index.htm"},
+      {
+        "name": "OGSAN Quick User Guide",
+        "url": "http://bmetis1/r_homepage/rm_homepage/environ_rm/radiation_monitoring_systems/ogsan/OGSAN_Quick_User_Guide_June2017.pdf"
+      }
+    ]
+  },
+  {
+    "name": "Radiation Concepts",
+    "children": [
+      { "name": "Basic Concepts", "url": "http://bmetis1/r_homepage/rm_homepage/basics_in_rad/concept_in_rad/concept_in_content.htm" },
+      { "name": "History", "url": "http://bmetis1/r_homepage/rm_homepage/basics_in_rad/fission/rad_fiss_eng1.htm?chinese=0" },
+      { "name": "Units", "url": "http://bmetis1/r_homepage/rm_homepage/basics_in_rad/Unit/main.htm" },
+      { "name": "Protection", "url": "http://bmetis1/r_homepage/rm_homepage/basics_in_rad/protect/main.htm" },
+      {
+        "name": "Nuclear Fission",
+        "url": "http://bmetis1/r_homepage/rm_homepage/basics_in_rad/fission/rad_fiss_eng1.htm?chinese=0"
+      },
+      {
+        "name": "Nuclear Reaction",
+        "url": "http://bmetis1/r_homepage/rm_homepage/basics_in_rad/reactor/rad_reactor_eng1.htm?chinese=0"
+      },
+      {
+        "name": "Dose Calculation",
+        "url": "http://bmetis1/r_homepage/rm_homepage/basics_in_rad/dose/rad_dose_eng1.htm?chinese=0"
+      }
+    ]
+  },
+  {
+    "name": "Bookshelf",
+    "children": [
+      { "name": "Contingency Plans", "url": "https://bmetis1/r_homepage/rm_homepage/bookshelf/bookshelf_list_cont_plan.htm" },
+      { "name": "Operational and Technical Manuals", "url": "https://bmetis1/r_homepage/rm_homepage/bookshelf/OM_TM.htm" },
+      {
+        "name": "General Information",
+        "url": "https://bmetis1/r_homepage/rm_homepage/bookshelf/bookshelf_list_gen_info.htm"
+      },
+      { "name": "Nuclear Events", "url": "https://bmetis1/r_homepage/rm_homepage/bookshelf/bookshelf_list_events.htm" },
+      { "name": "References", "url": "https://bmetis1/r_homepage/rm_homepage/bookshelf/bookshelf_list_ref.htm" }
+    ]
+  },
+  {
+    "name": "Related Websites",
+    "children": [
+      { "name": "Fukushima Related Information", "url": "https://bmetis1/r_homepage/rm_homepage/other_sites/fukushima.html" },
+      { "name": "International Organisations", "url": "https://bmetis1/r_homepage/rm_homepage/other_sites/inter_org.html" },
+      {
+        "name": "Emergency Response Activities",
+        "url": "http://www.wmo.int/pages/prog/www/DPFSERA/EmergencyResp.html"
+      },
+      { "name": "Historical Nuclear Events", "url": "https://bmetis1/r_homepage/rm_homepage/other_sites/hist_nuclear_events.html" },
+      { "name": "Nuclear Power Plants", "url": "https://bmetis1/r_homepage/rm_homepage/other_sites/nuclear_power_plants.html" },
+      { "name": "Radiation Physics", "url": "https://bmetis1/r_homepage/rm_homepage/other_sites/rad_physics.html" },
+      { "name": "Radiation Protection", "url": "https://bmetis1/r_homepage/rm_homepage/other_sites/rad_protection.html" },
+      {
+        "name": "Measurement & Instruments",
+        "url": "https://bmetis1/r_homepage/rm_homepage/other_sites/rad_measure.html"
+      },
+      { "name": "Radiation Units / Terms and Concepts", "url": "https://bmetis1/r_homepage/rm_homepage/other_sites/rad_basics.html" }
+    ]
+  },
+  {
+    "name": "FAQ & Party line",
+    "children": [
+      {
+        "name": "FAQ & Party Line",
+        "url": "http://bmetis1/r_homepage/rm_homepage/faq/faq.html"
+      },
+      {
+        "name": "ERDMS Media Strategy",
+        "url": "http://bmetis1/r_homepage/rm_homepage/conseq_assessment/acas/acas_products/erdms_media_strategy/media_bottom.html"
+      }
+    ]
+  },
+  { "name": "EPR handy tools and tables" },
+  {
+    "name": "MAC VWPCS (Video Wall Presentation Computer System)",
+    "children": [
+      {
+        "name": "Modules' manuals and documentations",
+        "children": [
+          {
+            "name": "Video Conferencing System (Huawei TE60) - Datasheet",
+            "url": "https://drive.google.com/open?id=1rVGZXPjwzhGfaRmBN3fq-YKRLZc3qRx4"
+          },
+          {
+            "name": "Video Conferencing System (Huawei TE60) - Administrator Guide",
+            "url": "https://drive.google.com/open?id=1mE8biU3jxIF2hl6k4-hRHnnUQnayyI-m"
+          },
+          {
+            "name": "Video Conferencing System (Huawei SMC2.0) - Administrator Guide",
+            "url": "https://drive.google.com/open?id=1cFZt9l0lUGKt8cL3RHPe8FdI87La0U8J"
+          },
+          {
+            "name": "Video Conferencing System (Huawei vMCU Suite) - Datasheet",
+            "url": "https://drive.google.com/open?id=1sjV5xuom9IvVdQPWIfeIVa99qiVA7ILk"
+          },
+          {
+            "name": "Fax System (Brother MFC-L8900CDW) - User Guide",
+            "url": "https://drive.google.com/open?id=1O1jZDnZs6TlKfDonaOvlBj2PxRE2jYkF"
+          },
+          {
+            "name": "Voice Recording system (IL8000-PRO2) - System Install Manual",
+            "url": "https://drive.google.com/open?id=1NZ4d-lzMjzkvrXd7GtNgMBN-S2s0RiyL"
+          },
+          {
+            "name": "Voice Recording system (IL8000-PRO2) - User guide",
+            "url": "https://drive.google.com/open?id=1McWgsmwnaijLdQa5o4l4q8-nUQVuAHTc"
+          },
+          {
+            "name": "Command Console (InFocus MondoPad) - datasheet",
+            "url": "https://drive.google.com/open?id=1vYgO2feOI0h47YuKAl62d1mt51sfZ2js"
+          },
+          {
+            "name": "Command Console (InFocus MondoPad) - Hardware Guide",
+            "url": "https://drive.google.com/open?id=1QtlKotamxVE-Ma7ajc3IG_o5izzfYI2f"
+          },
+          {
+            "name": "Command Console (InFocus MondoPad) - Administrator Guide",
+            "url": "https://drive.google.com/open?id=1x2NCsLnl0_deLDjEskbvbGGSEr39v-ok"
+          },
+          {
+            "name": "Command Console (InFocus Canvas) - Whitepaper",
+            "url": "https://drive.google.com/open?id=16mXu8LT6Eqo4wfJmLXrHEzEvxtHPT08f"
+          },
+          {
+            "name": "Command Console (InFocus Canvas) - Datasheet",
+            "url": "https://drive.google.com/open?id=1ofOYfInAqnmUxKef0JhyFwQh91zyfb03"
+          },
+          {
+            "name": "Dongle (SimpleShare) - User Guide",
+            "url": "https://drive.google.com/open?id=1hBU9EofbewN3wfqm-_ZCFJyvvDpmQfZW"
+          },
+          {
+            "name": "UPS (Huawei UPS2000-G) - User Manual",
+            "url": "https://drive.google.com/open?id=1llkcQ8_2IlkAoRP2iMuzJa2yjJeJJip_"
+          },
+          {
+            "name": "Video Wall Module Pop-out (Vogel's PFW6870) - Leaflet",
+            "url": "https://drive.google.com/open?id=1VhLXrmRAFoqlC-eCBi7UxL3zq5lez84f"
+          },
+          {
+            "name": "Video Wall Display Panel (Philips 49BDL3005X) - Leaflet",
+            "url": "https://drive.google.com/open?id=1l4r21W-5wRB03cWsyzJfr4gs3TPzuTMP"
+          },
+          {
+            "name": "Video Wall Display Panel (Philips 49BDL3005X) - User Manual",
+            "url": "https://drive.google.com/open?id=1sLhnNmpOGp2xE7EswVJ3E0v18Myk07ix"
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <!-- Meta -->
+  <meta charset="UTF-8" />
+  <title>MAC Video Conference User Guide</title>
+
+  <!-- Styles -->
+  <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+Condensed:wght@400;700&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.0/css/bulma.min.css">
+  <link rel="stylesheet" href="styles/gdoc.css">
+  <link rel="stylesheet" href="styles/index.processed.css">
+
+  <!-- Scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.11/vue.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/nash403/navscroll-js/dist/navscroll.js"></script>
+</head>
+
+<body>
+
+  <div id="app">
+    <navscroll class="menu nav-scroll-items" :container="container" :item-selector="'.item'" :active-class="activeClass" :always-track="alwaysTrack" :duration="duration" :offset="offset" :easing="easing" :anchor="anchor" :cancelable="cancelable" :scrollX="scrollX"
+      :scrollY="scrollY">
+      <ul class="menu-list">
+        <li>
+          <a href="#sec-1" class="item">Plan a V/C meeting</a>
+        </li>
+        <li>
+          <a href="#sec-2" class="item">Installation and configuration of V/C software</a>
+        </li>
+        <li>
+          <a href="#sec-3" class="item">User guide of using V/C</a>
+        </li>
+        <li>
+          <a href="#sec-4" class="item">Etiquette / reminder to users for better v/c experience</a>
+        </li>
+        <li>
+          <a href="#sec-5" class="item">Contact the administrator</a>
+        </li>
+      </ul>
+    </navscroll>
+
+    <div class="content has-background-link">
+      <main id="scrollable-content" :class="scrollAxis === 'x' ? 'scrollx' :''">
+        <section class ref="targets" id="sec-1">
+          <h1>Plan a V/C meeting</h1>
+          <p>A V/C booking platform is available powered by Google Calendar, to plan a V/C meeting please signin Google Calendar with account:<br> Username: <strong>r4vcbooking</strong><br> Password: <strong>nathan134A</strong><br>
+          </p>
+          <p>
+            <img src="images/1.png" alt="">
+            <br>
+            <br> Select a timeslot to plan a meeting, fill in the subject in this format: <br>
+            <strong>[staff name], [post], [number of participants]</strong><br> Choose an available room. Then Save.<br>
+            <br>
+            <br>
+            <img src="images/2.png" alt="">
+            <br>
+            <br> Now you booking is reserved, the administrator will review and contact you if there is any issue with your booking.<br>
+            <br>
+            <img src="images/3.png" alt="">
+          </p>
+        </section>
+
+        <section class ref="targets" id="sec-2">
+          <h1>Installation and configuration of V/C software</h1>
+
+          <!-- These are content from Google doc user guide -->
+          <p class="c0"><span>To use the V/C, You will first need to install the V/C application on your device.<br></span></p>
+          <h3 class="c8" id="h.vjj82u9mewto"><span class="c7">1a. </span><span class="c3 c7">Windows:</span></h3>
+          <p class="c0"><span class="c4 c7">Download and install the V/C application, an &ldquo;EXE&rdquo; file, from our private google drive :</span></p>
+          <p class="c0"><span class="c5 c7"><a class="c18" href="https://www.google.com/url?q=https://drive.google.com/open?id%3D1SwDJYBK27ol_EKWtIBXYALjO_x0NTr8s&amp;sa=D&amp;ust=1594789510514000&amp;usg=AOvVaw1N-Ga-K0cHwXhDBoZC9_U2">https://drive.google.com/open?id=1SwDJYBK27ol_EKWtIBXYALjO_x0NTr8s</a></span></p>
+          <p class="c0"><span class="c7">The installation process is straightforward, you can keep pressing the &ldquo;next&rdquo; button to finish it.</span></p>
+          <p class="c0 c2"><span class="c4"></span></p>
+          <h3 class="c8" id="h.mam7m0w2vnek"><span class="c3">1b. Android:</span></h3>
+          <p class="c0"><span class="c4">Download and install the V/C application, an &ldquo;APK&rdquo; file, from our private google drive:</span></p>
+          <p class="c0"><span class="c5"><a class="c18" href="https://www.google.com/url?q=https://drive.google.com/open?id%3D1Cw-mRxKtY7G9CV59NjpkQUtmw4mPMXR3&amp;sa=D&amp;ust=1594789510515000&amp;usg=AOvVaw3yebpiH8Jvd7vXwhyZsEy7">https://drive.google.com/open?id=1Cw-mRxKtY7G9CV59NjpkQUtmw4mPMXR3</a></span></p>
+          <p class="c0 c2"><span class="c4"></span></p>
+          <h3 class="c8" id="h.2xd0y0g2e3eb"><span class="c3">1c. iOS (iPhone &amp; iPad):</span></h3>
+          <p class="c0"><span class="c4">Install the V/C application &ldquo;Huawei TE Mobile&rdquo; from Apple AppStore, the direct link:</span></p>
+          <p class="c0"><span class="c5"><a class="c18" href="https://www.google.com/url?q=https://apps.apple.com/hk/app/te-mobile/id866993028?l%3Den&amp;sa=D&amp;ust=1594789510515000&amp;usg=AOvVaw2FyH8HyXx9GSjLuFelbyaB">https://apps.apple.com/hk/app/te-mobile/id866993028?l=en</a></span></p>
+          <p class="c0 c2"><span class="c4"></span></p>
+          <hr style="page-break-before:always;display:none;">
+          <h2 class="c10 c20" id="h.fdj5fujiyoso"><span class="c14 c11"></span></h2>
+          <a id="id.jx8on0uyrmpd"></a>
+          <h2 class="c10" id="h.lxczx61qd5bd"><span>2</span><span class="c14 c11">. Configuration</span></h2>
+          <h3 class="c8" id="h.qdj5tpvjnryc"><span class="c3">2a. Windows</span></h3>
+          <p class="c0 c2"><span class="c4"></span></p>
+          <p class="c0"><span class="c4">The V/C application is &ldquo;TE Desktop&rdquo;, after installed there is a shortcut on the desktop.</span></p>
+          <p class="c0"><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 545.00px; height: 533.00px;"><img alt="" src="images/image18.jpg" style="width: 545.00px; height: 533.00px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span></p>
+          <h3 class="c8 c19" id="h.mb8gzj14vub5"><span class="c3"></span></h3>
+          <hr style="page-break-before:always;display:none;">
+          <h3 class="c8 c19" id="h.vdrkpb5x2d5n"><span class="c3"></span></h3>
+          <p class="c0"><span class="c4">Click the gear button:</span></p>
+          <p class="c0"><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 284.50px; height: 517.01px;"><img alt="" src="images/image1.png" style="width: 284.50px; height: 517.01px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span></p>
+          <p class="c0 c2"><span class="c4"></span></p>
+          <hr style="page-break-before:always;display:none;">
+          <p class="c0 c2"><span class="c4"></span></p>
+          <p class="c0"><span class="c7">For </span><span class="c7 c11">HKO Intranet </span><span class="c4 c7">connection (i.e. Office computer), </span></p>
+          <p class="c0"><span class="c7">set the </span><span class="c7 c11">Address </span><span class="c7">field to </span><span class="c7 c11">192.168.188.77</span><span class="c4 c7">, </span></p>
+          <p class="c0"><span class="c7">the </span><span class="c7 c11">Port </span><span class="c7">is</span><span class="c7">&nbsp;</span><span class="c7 c11">5061</span><span class="c4 c7">.</span></p>
+          <p class="c0"><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 324.00px; height: 263.00px;"><img alt="" src="images/image9.png" style="width: 324.00px; height: 263.00px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span></p>
+          <p class="c0"><span class="c4">&nbsp;</span></p>
+          <p class="c0 c2"><span class="c4"></span></p>
+          <p class="c0"><span>For </span><span class="c11">Public Internet </span><span class="c4">connection (i.e. Home personal computer),</span></p>
+          <p class="c0"><span>set the </span><span class="c11">Address </span><span>field to </span><span class="c11">202.155.209.204</span><span class="c4">,</span></p>
+          <p class="c0"><span>the </span><span class="c11">Port </span><span>is </span><span class="c11">5061</span><span class="c4">.</span></p>
+          <p class="c0"><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 322.00px; height: 261.00px;"><img alt="" src="images/image11.png" style="width: 322.00px; height: 261.00px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span></p>
+          <p class="c0"><span class="c4">&nbsp;</span></p>
+          <p class="c0"><span>Then click </span><span class="c11">save</span><span>.</span>
+            <hr style="page-break-before:always;display:none;">
+          </p>
+          <p class="c0"><span class="c4">Now the main screen should become with only 2 fields left:</span></p>
+          <p class="c0"><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 316.00px; height: 562.00px;"><img alt="" src="images/image6.png" style="width: 316.00px; height: 562.00px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span></p>
+          <p class="c0 c2"><span class="c4"></span></p>
+          <p class="c0"><span class="c4">&nbsp;The configuration is finished successfully.</span></p>
+          <hr style="page-break-before:always;display:none;">
+          <p class="c0 c2"><span class="c4"></span></p>
+          <h3 class="c8" id="h.t5e3toppfshk"><span class="c4">Input your account. You might consider checking the &ldquo;Remember Password&rdquo; on.</span></h3>
+          <p class="c0"><span class="c4">Press the Green arrow button to Log In.</span></p>
+          <h3 class="c8" id="h.iodgvwdeunrg"><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 300.00px; height: 547.00px;"><img alt="" src="images/image13.png" style="width: 300.00px; height: 547.00px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span></h3>
+          <p class="c0 c2"><span class="c4"></span></p>
+          <hr style="page-break-before:always;display:none;">
+          <h3 class="c8 c19" id="h.21d40z9kd20b"><span class="c3"></span></h3>
+          <h3 class="c8" id="h.7hp7t8jb7joa"><span class="c3">2b. Mobile (Android &amp; iOS)</span></h3>
+          <p class="c0"><span>Click the </span><span class="c11">Gear </span><span class="c4">button:</span></p>
+          <p class="c0"><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 288.00px; height: 621.00px;"><img alt="" src="images/image14.png" style="width: 288.00px; height: 621.00px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span></p>
+          <hr style="page-break-before:always;display:none;">
+          <p class="c0 c2"><span class="c4"></span></p>
+          <p class="c0"><span>Select </span><span class="c11">Server Settings</span><span class="c4">:</span></p>
+          <p class="c0"><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 284.59px; height: 616.50px;"><img alt="" src="images/image10.png" style="width: 284.59px; height: 616.50px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span></p>
+          <hr style="page-break-before:always;display:none;">
+          <p class="c0 c2"><span class="c4"></span></p>
+          <p class="c0"><span>For </span><span class="c11">HKO Intranet </span><span class="c4">connection (i.e. Connecting to HKO office WIFI), </span></p>
+          <p class="c0"><span>set the </span><span class="c11">Address </span><span>field to </span><span class="c11">192.168.188.77</span><span class="c4">,</span></p>
+          <p class="c0"><span>the </span><span class="c11">Port </span><span>is </span><span class="c11">5061</span><span class="c4">.</span></p>
+          <p class="c0"><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 284.82px; height: 616.50px;"><img alt="" src="images/image2.png" style="width: 284.82px; height: 616.50px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span></p>
+          <hr style="page-break-before:always;display:none;">
+          <p class="c0 c2"><span class="c4"></span></p>
+          <p class="c0"><span>For </span><span class="c11">Internet </span><span class="c4">connection (i.e. Personal Mobile Network),</span></p>
+          <p class="c0"><span>set the </span><span class="c11">Address </span><span>field to </span><span class="c11">202.155.209.204</span><span class="c4">,</span></p>
+          <p class="c0"><span>the </span><span class="c11">Port </span><span>is </span><span class="c11">5061</span><span class="c4">.</span></p>
+          <p class="c0"><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 285.50px; height: 618.71px;"><img alt="" src="images/image8.png" style="width: 285.50px; height: 618.71px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span></p>
+          <p class="c0"><span class="c4">&nbsp;</span></p>
+          <p class="c0"><span>Then click </span><span class="c11">save</span><span class="c4">.</span></p>
+          <hr style="page-break-before:always;display:none;">
+          <p class="c0 c2"><span class="c4"></span></p>
+          <p class="c0"><span class="c4">Now the main screen should become with only 2 fields left:</span></p>
+          <p class="c0"><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 285.60px; height: 618.50px;"><img alt="" src="images/image19.png" style="width: 285.60px; height: 618.50px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span></p>
+          <p class="c0 c2"><span class="c4"></span></p>
+          <p class="c0"><span>The configuration is finished successfully.</span>
+            <hr style="page-break-before:always;display:none;">
+          </p><a id="id.r17i617v940a"></a>
+          <h2 class="c10" id="h.4mdn4wpt1ef4"><span class="c14 c7 c11">3. Login</span></h2>
+          <p class="c0"><span class="c7">You can now login with your given account (to be provided by Wallace Chan, SO(R)42)).<br>Please note that for a </span><span class="c7 c11">HKO Intranet account</span><span class="c7">, the ID should always start with </span>
+            <span
+              class="c7 c11">833</span><span class="c7">, while for a </span><span class="c7 c11">public internet account</span><span class="c7">, the ID should start with </span><span class="c7 c11">633</span><span class="c4 c7">.</span></p>
+          <p class="c0 c2"><span class="c4"></span></p>
+          <p class="c0"><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 285.50px; height: 617.72px;"><img alt="" src="images/image20.png" style="width: 285.50px; height: 617.72px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span>
+            <hr style="page-break-before:always;display:none;">
+          </p>
+
+          <!-- END -->
+        </section>
+
+        <section class ref="targets" id="sec-3">
+          <h1>User guide of using V/C</h1>
+          <!-- These are content from Google doc user guide -->
+          <h2 class="c10" id="h.mzm9clg0bjn1"><span class="c14 c11">4. Use the video conference</span></h2>
+          <h3 class="c8" id="h.ylme6v7t2or3"><span class="c3 c7">4a. Windows:</span></h3>
+          <p class="c0"><span class="c7">Select the &ldquo;</span><span class="c7 c11">Keypad</span><span class="c4 c7">&rdquo; button, then dial the Conference Room number given by the conference admin (e.g. 3003). </span></p>
+          <p class="c0"><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 320.00px; height: 564.00px;"><img alt="" src="images/image12.png" style="width: 320.00px; height: 564.00px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span>
+            <span
+              style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 321.00px; height: 565.00px;"><img alt="" src="images/image26.png" style="width: 321.00px; height: 565.00px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span>
+          </p>
+          <p class="c0 c2"><span class="c4"></span></p>
+          <p class="c0"><span class="c7">You may be requested to enter the room password, it can&rsquo;t be typed directly via keyboard, instead click the &ldquo;</span><span class="c7 c11">Keypad</span><span class="c7">&rdquo; button and input it. Press </span>
+            <span
+              class="c7 c11">#</span><span class="c4 c7">&nbsp;to confirm.</span></p>
+          <p class="c0"><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 588.50px; height: 384.30px;"><img alt="" src="images/image24.png" style="width: 588.50px; height: 384.30px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span></p>
+          <p class="c0 c2"><span class="c4"></span></p>
+          <p class="c0"><span>Done. Now you are ready to use the video conference.<br></span><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 591.50px; height: 386.86px;"><img alt="" src="images/image21.png" style="width: 591.50px; height: 386.86px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span></p>
+          <hr style="page-break-before:always;display:none;">
+          <h3 class="c8 c19" id="h.k74jx4zhtlgk"><span class="c3"></span></h3>
+          <h3 class="c8" id="h.u5etcgy2nt9w"><span class="c3">4b. Mobile (Android &amp; iOS)</span></h3>
+          <p class="c0"><span>Select the &ldquo;</span><span class="c11">Keypad</span><span class="c4">&rdquo; button, then dial the Conference Room number given by the conference admin (e.g. 3003). </span></p>
+          <p class="c0"><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 285.52px; height: 618.50px;"><img alt="" src="images/image23.png" style="width: 285.52px; height: 618.50px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span>
+            <span
+              style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 285.50px; height: 618.25px;"><img alt="" src="images/image17.png" style="width: 285.50px; height: 618.25px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span>
+          </p>
+          <p class="c0 c2"><span class="c4"></span></p>
+          <p class="c0"><span>You may be requested to enter the room password, it can&rsquo;t be typed directly via keyboard, instead click the &ldquo;</span><span class="c11">Keypad</span><span>&rdquo; button and input it. Press </span><span class="c11">#</span>
+            <span
+              class="c4">&nbsp;to confirm.</span>
+          </p>
+          <p class="c0"><span style="overflow: hidden; display: inline-block; margin: -166.12px 166.12px; border: 0.00px solid #000000; transform: rotate(4.71rad) translateZ(0px); -webkit-transform: rotate(4.71rad) translateZ(0px); width: 285.25px; height: 617.50px;"><img alt="" src="images/image15.png" style="width: 285.25px; height: 617.50px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span></p>
+          <p class="c0 c2"><span class="c4"></span></p>
+          <p class="c0"><span>Done. Now you are ready to use the video conference.<br></span><span style="overflow: hidden; display: inline-block; margin: -168.01px 168.01px; border: 0.00px solid #000000; transform: rotate(4.71rad) translateZ(0px); -webkit-transform: rotate(4.71rad) translateZ(0px); width: 288.49px; height: 624.50px;"><img alt="" src="images/image5.png" style="width: 288.49px; height: 624.50px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span></p>
+          <hr style="page-break-before:always;display:none;">
+          <h2 class="c10 c20" id="h.8e6mjwnq1xhf"><span class="c14 c11"></span></h2>
+          <a id="id.7ma9ic62l936"></a>
+          <h2 class="c10" id="h.lqpmqxuz2vwx"><span class="c14 c11">5. FAQ &amp; notes</span></h2>
+          <h3 class="c8" id="h.803npuvx1bu8"><span class="c3">5a. What are those buttons on the interface?</span></h3>
+          <p class="c0 c2"><span class="c4"></span></p>
+          <p class="c0"><span class="c11">Windows: </span></p>
+          <p class="c0"><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 698.00px; height: 136.00px;"><img alt="" src="images/image25.png" style="width: 698.00px; height: 141.00px; margin-left: 0.00px; margin-top: -5.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span></p>
+          <p class="c0 c2"><span class="c4"></span></p>
+          <p class="c0"><span class="c4">From left to right:</span></p>
+          <ol class="c16 lst-kix_ld6n0e3ynvx3-0 start" start="1">
+            <li class="c0 c1"><span class="c9">Site list</span></li>
+            <li class="c0 c1"><span class="c9">Disable Local Camera</span></li>
+            <li class="c0 c1"><span class="c9">Mute Local Microphone</span></li>
+            <li class="c0 c1"><span class="c9">Mute Speaker</span></li>
+            <li class="c0 c1"><span class="c9">Two-Stage Dialing</span></li>
+            <li class="c0 c1"><span class="c9">Share Desktop</span></li>
+          </ol>
+          <ol class="c16 lst-kix_ld6n0e3ynvx3-1 start" start="1">
+            <li class="c0 c15"><span class="c9">Share Desktop</span></li>
+            <li class="c0 c15"><span class="c9">Share Application</span></li>
+          </ol>
+          <ol class="c16 lst-kix_ld6n0e3ynvx3-0" start="7">
+            <li class="c0 c1"><span class="c9">More</span></li>
+          </ol>
+          <ol class="c16 lst-kix_ld6n0e3ynvx3-1 start" start="1">
+            <li class="c0 c15"><span class="c9">Video to Audio</span></li>
+            <li class="c0 c15"><span class="c9">Hide Small Window</span></li>
+          </ol>
+          <ol class="c16 lst-kix_ld6n0e3ynvx3-0" start="8">
+            <li class="c0 c1"><span class="c9">End Call (Red Button)</span></li>
+            <li class="c0 c1"><span class="c11">Full Screen</span></li>
+          </ol>
+          <hr style="page-break-before:always;display:none;">
+          <p class="c0 c2"><span class="c4"></span></p>
+          <h4 class="c12" id="h.4bql9oq9p4ui"><span>1. Site list </span></h4>
+          <p class="c0"><span class="c4">Site list shows the list of current participants in the conference room.</span></p>
+          <p class="c0"><span class="c4">It also provides Chair role function, click the chairman icon (the 3rd one).</span></p>
+          <p class="c0"><span class="c4">The chair role user can 1. Lock the conference &nbsp;2. Invite new participant &nbsp;3. Batch muting multiple users&rsquo; microphone, and more.</span></p>
+          <p class="c0"><span>The chair role password is managed by the Conference Admin.</span></p>
+          <p class="c0 c2"><span class="c9"></span></p>
+          <p class="c0"><span class="c9">Windows:</span></p>
+          <p class="c0"><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 243.50px; height: 347.15px;"><img alt="" src="images/image7.png" style="width: 243.50px; height: 347.15px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span></p>
+          <p class="c0"><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 280.00px; height: 180.00px;"><img alt="" src="images/image16.png" style="width: 280.00px; height: 180.00px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span></p>
+          <p class="c0 c2"><span class="c4"><br></span></p>
+          <hr style="page-break-before:always;display:none;">
+          <p class="c0 c2"><span class="c9"></span></p>
+          <p class="c0"><span class="c11">Mobile (Android &amp; iOS):</span></p>
+          <p class="c0"><span>Conference Control button<br></span><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 604.00px; height: 279.50px;"><img alt="" src="images/image4.png" style="width: 604.00px; height: 279.50px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span><span><br></span>
+            <span
+              style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 601.50px; height: 278.34px;"><img alt="" src="images/image22.png" style="width: 601.50px; height: 278.34px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span>
+          </p>
+          <p class="c0 c2"><span class="c4"></span></p>
+          <h4 class="c12" id="h.ycvyckcbugo7"><span class="c6">2. Disable Local Camera</span></h4>
+          <h4 class="c12" id="h.ycvyckcbugo7-1"><span class="c6">3. Mute Local Microphone</span></h4>
+          <h4 class="c12" id="h.ycvyckcbugo7-2"><span class="c6">4. Mute Speaker</span></h4>
+          <p class="c0"><span class="c4">These buttons are self-explained.</span></p>
+          <p class="c0 c2"><span class="c4"></span></p>
+          <h4 class="c12" id="h.gjwwhln91xko"><span class="c6">5. Two-Stage Dialing</span></h4>
+          <p class="c0"><span class="c4">The dialing numpad for making call or inputing room password.</span></p>
+          <p class="c0 c2"><span class="c4"></span></p>
+          <h4 class="c12" id="h.htfm5tefmmd3"><span class="c6">6. Share Desktop</span></h4>
+          <p class="c0"><span class="c9">6a. Share Desktop</span></p>
+          <p class="c0"><span class="c9">6b. Share Application</span></p>
+          <p class="c0"><span class="c4">Please be noted that these functions are not available on mobile version</span></p>
+          <p class="c0 c2 c21"><span class="c9"></span></p>
+          <h4 class="c12" id="h.oekm3yrtdp5r"><span class="c6">7. More </span></h4>
+          <p class="c0"><span class="c9">7a. Video to Audio</span></p>
+          <p class="c0"><span class="c9">7b. Hide Small Window</span></p>
+          <h4 class="c12" id="h.nc7psh59onnr"><span class="c6">8. End Call (Red Button)</span></h4>
+          <h4 class="c12" id="h.nc7psh59onnr-3"><span class="c6">9. Full Screen</span></h4>
+          <p class="c0"><span class="c4">These buttons are self-explained.</span></p>
+          <p class="c0 c2"><span class="c4"></span></p>
+          <h3 class="c8" id="h.luk3h987m80r"><span class="c3">5b. I can&rsquo;t attend the conference room as being kicked out</span></h3>
+          <p class="c0"><span class="c4">The more participants sharing their camera view, the more HKO network bandwidth is consumed. If you encounter this problem, please contact the Conference Admin team, we will try adjusting the conference quality to lower down the network bandwidth occupancy rate.<br></span></p>
+          <h3 class="c8" id="h.yu22vraz28ov"><span class="c3">5c. Self-help / seeking for advanced feature</span></h3>
+          <p class="c0"><span class="c4">You can know more functions in detail by referencing the Help (Click the Help button in the application).</span></p>
+          <p class="c0"><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 653.25px; height: 284.50px;"><img alt="" src="images/image3.png" style="width: 653.25px; height: 284.50px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span></p>
+          <!-- END -->
+        </section>
+  
+        <section class ref="targets" id="sec-4">
+          <h1>Etiquette / reminder to users for better v/c experience</h1>
+          <p class="c3"><span class="c2">6a. Video conferencing requires a stable network, so LAN cable network connection is preferred over WiFi.</span></p>
+          <p class="c3 c4"><span class="c2"></span></p>
+          <p class="c3"><span class="c2">6b. It&rsquo;s good practice to mute the microphone when not in need of using it, this can help reduce echo noise to all participants.</span></p>
+          <p class="c3 c4"><span class="c2"></span></p>
+        </section>
+
+        <section class ref="targets" id="sec-5">
+          <h1>Contact the administrator</h1>
+          <p>If you encounter any issue on using the V/C, please contact:<br>
+            <strong>Wallace Chan (swchan, SO(R)42) - 2023</strong><br>
+            <strong>TC Lai (tclai, SSA(R)41) - 2313</strong><br>
+            <strong>Kelvin Hung (whhung, AP(R)41) - 2366</strong>
+          </p>
+        </section>
+      </main>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="scripts/index.js"></script>
+</body>
+
+</html>

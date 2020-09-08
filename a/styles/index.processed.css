@@ -1,0 +1,146 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#app {
+  width: 100%;
+  height: 100%;
+}
+
+#title {
+  position: fixed;
+  z-index: 10;
+  right: 20px;
+  top: 20px;
+  text-align: right;
+  font-size: 36px;
+  line-height: 48px;
+  color: white;
+}
+
+#app {
+  font-family: "Encode Sans Condensed", sans-serif;
+}
+
+#app:after {
+  content: "";
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("../images/sky.jpg") right top no-repeat;
+  background-size: cover;
+}
+
+#nav-wrapper {
+  position: fixed;
+  top: 20px;
+  bottom: 20px;
+  left: 20px;
+  z-index: 50;
+}
+
+nav {
+  width: 350px;
+  height: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: absolute;
+  top: 0;
+  transition: all 0.5s;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+nav ul {
+  overflow: auto;
+  height: 100%;
+}
+
+nav ul::-webkit-scrollbar-track {
+  background-color: #f5f5f5;
+}
+
+nav ul::-webkit-scrollbar {
+  width: 5px;
+  background-color: white;
+}
+
+nav ul::-webkit-scrollbar-thumb {
+  background-color: #ddd;
+  border-radius: 2px;
+}
+
+nav.lv1 {
+  display: block;
+  background: #fefefe;
+  left: 0;
+  z-index: 10;
+  border-radius: 10px 0 0 10px;
+}
+
+nav.lv2 {
+  transform: scale(0, 1);
+  transform-origin: 0 0;
+  opacity: 0;
+  background: #f5f5fb;
+  left: 350px;
+  z-index: 9;
+}
+
+nav.lv3 {
+  transform: scale(0, 1);
+  transform-origin: 0 0;
+  opacity: 0;
+  background: #fefefe;
+  left: 350px;
+  z-index: 8;
+  border-radius: 0 10px 10px 0;
+}
+
+nav li {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+nav li:hover > nav {
+  display: block;
+}
+
+nav li:hover > nav {
+  transform: scale(1, 1);
+  opacity: 1;
+}
+
+nav li:hover > a {
+  background-color: #02a1ff;
+  color: white;
+}
+
+nav li a, nav li span {
+  display: block;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+nav li a {
+  cursor: pointer;
+  color: #5a6c87;
+  text-decoration: none;
+}
+
+nav li a.parent:after {
+  content: "\f105";
+  display: inline-block;
+  float: right;
+  font-family: FontAwesome;
+}
+
+nav li span {
+  color: #c2c2c2;
+  cursor: not-allowed;
+}
